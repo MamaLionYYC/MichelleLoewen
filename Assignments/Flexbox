@@ -1,0 +1,8 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+    body {
+    background-image: url(DavosHockey.webp);
+    image-orientation:center;image-rendering:0.5;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;

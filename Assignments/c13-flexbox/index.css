@@ -1,0 +1,28 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    height: 20px
+    /*this height can be applied to flex-direction column or row*/
+    align-items: center;
+    background-color: green;
+    justify-content: space-between;
+}
+
+h1 {
+background-color: red;
+flex: 1;
+
+}
+nav{
+    background-color: yellow;
+}
+
+content {display: flex;
+flex-direction:row;
+flex-wrap: wrap;
+}
+/* row mode will shrink to widest section by default | we need flex-wrap
