@@ -1,0 +1,48 @@
+/* This is the CSS file for the websiteML.html file */
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    justify-content: space-between;
+    text-align: center;
+    -webkit-text-fill-color: bisque;
+    flex-direction: row;
+    height: 80px;
+    align-items: center;
+    background-color: rgb(8, 8, 8);
+    position: relative; /* Make the header relative to ensure all sections Heading 3 .... not covered */
+    top: 0; /* Position it at the top */
+    width: 100%; /* Make it span the full width of the page */
+    z-index: 1000; /* Ensure it is above other elements */
+}
+
+div {
+    background-color: rgb(204, 198, 212);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url('path/to/your/image.jpg'); /* Add the background image */
+    background-size: cover; /* Make the image cover the entire div */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-position: center; /* Center the image */
+}
+
+
+
+
+
+
+
+/* It looks like you have some CSS code that you want to modify. However, your question "how do i go to server" is a bit unclear. If you are asking how to deploy your website to a server, here are some general steps:
+
+1. **Choose a Hosting Provider**: Select a hosting provider like GitHub Pages, Netlify, Vercel, or any other web hosting service.
+
+2. **Upload Your Files**: Upload your HTML, CSS, and any other necessary files to the hosting provider. This usually involves creating a new project or repository and pushing your files to it.
+
+3. **Configure Your Domain**: If you have a custom domain, configure it to point to your hosting provider.
+
+4. **Deploy**: Follow the deployment instructions provided by your hosting provider. This might involve using a command-line tool, a web interface, or a version control system like Git.
+
+If you need more specific instructions, please provide more details about your hosting environment or what exactly you are trying to achieve.
